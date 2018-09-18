@@ -66,3 +66,16 @@
 
 * Name all six primitive data-types in JavaScript:
   * boolean, string, number, null, undefined, and symbol
+
+* What is the difference between  null and undefined ?
+  * Undefined means the value of the variable is not defined. JS has a global variable called undefined whose value is undefined.
+  * null means empty or non-existent value which is used by programmers to indicate "no value".
+
+* What is the value of this inside of a setTimeout function?
+  * The window itself.
+
+* What is the value of this inside of a constructor function?
+  * A newly created object
+
+* What is the temporal dead zone?
+  * This has to do with the topic of hoisting. The temporal deadzone is the time between entering a scope where a variable is declared (i.e. an if statement or while loop), and the actual declaration and initialization of that variable. During this period, let and const variables cannot be accessed (you will get a Reference Error), even though they have been hoisted.
