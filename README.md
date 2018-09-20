@@ -99,3 +99,39 @@
 
 * What does the global object refer to in JavaScript?
   * A POJO that exists to provide all built-in methods and global variables.
+
+* What does the "length" property of the JavaScript Function object return?
+  * The number of arguments taken by the function (not including rest parameters)
+
+* What is a prototype in JavaScript?
+  * An object.
+
+* What are the differences between div and span?
+  * Div is a block element and span is inline element.
+
+* What is the difference between a canvas element and an SVG?
+  * SVG: Object Model-based (SVG elements are similar to HTML elements). Graphical elements become part of the DOM. Visual presentation created with markup and modified by CSS or script. API supports accessibility. API does not support accessibility; markup-based techniques must be used in addition to canvas.
+
+  * Canvas: Pixel-based (canvas is essentially an image element with a drawing API). Single HTML element similar to  in behavior. Visual presentation created and modified programmatically through script.
+
+* Do padding-left, padding-right, margin-left, or margin-right effect inline elements?
+  * Yes.
+
+* Why can we call methods on certain primitive datatypes?
+  * Technically, you can't.
+  * Certain primitive datatypes, like strings, numbers, and booleans, have non-primitive counterparts (String, Number, Boolean). So, if you call "string".slice(5), that string will be implicitly cast to a String object, and the slice method will be called on that.
+
+* What is position fixed?
+  * The computed position of an element where it's position is constant or 'fixed' in relation to the window. Its' position and presence never change.
+
+* What is position sticky?
+  * It's treated as relatively positioned until its containing block crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls within), at which point it is treated as "stuck" (it doesn't move) until meeting the opposite edge of its containing block.
+
+* What are the differences between == and === ?
+  * == will not check types and === will check whether both sides are of same type. == will convert to its convenient type to have both in same type and then do the comparison.
+
+* If you create a function that takes 2 arguments, but invoke it with 3 arguments, how can you access the third variable?
+  * Use the "arguments" keyword.
+
+* What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
+  * NaNs type is Number. NaN compared to anything, even itself, is false. One way to check if they are equal is using the built in isNaN() function.
