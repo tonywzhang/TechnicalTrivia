@@ -156,3 +156,9 @@
 
 * What does "2" + 1 evaluate to in JS?
   * "21"
+
+* Name 2 programming paradigms in JS
+  * OOP, and functional programming
+
+* In JS are strings mutable or immutable?
+  * Immutable
