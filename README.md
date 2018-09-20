@@ -205,4 +205,5 @@
 * What is a semantic tag?
   * Semantic HTML, or "semantically-correct HTML", is HTML where the tags used to structure content are selected and applied appropriately to the meaning of the content. For example, (for bold), and (for italic) should never be used, because they’re to do with formatting, not with the meaning or structure of the content. Instead, use the replacements and (meaning emphasis), which by default will turn text bold and italic (but don’t have to do so in all browsers), while adding meaning to the structure of the content.
 
-* 
+* Why would you use semantic tags?
+  * Search Engine Optimization, accessibility, repurposing, light code. Many visually impaired person rely on browser speech and semantic tag helps to interpret page content clearly.
