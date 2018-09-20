@@ -135,3 +135,9 @@
 
 * What is NaN? What is its type? How can you reliably test if a value is equal to NaN?
   * NaNs type is Number. NaN compared to anything, even itself, is false. One way to check if they are equal is using the built in isNaN() function.
+
+* What is a closure in javascript?
+  * A closure is an inner function that has access to the variables in the outer (enclosing) function’s scope chain. The closure has access to variables in three scopes; specifically: (1) variable in its own scope, (2) variables in the enclosing function’s scope, and (3) global variables.
+
+* When you zoom in on your browser and the page gets bigger, what exactly happens?
+  * The browser increases the size of each pixel by the percentage of the zoom.
