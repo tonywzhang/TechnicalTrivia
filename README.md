@@ -85,3 +85,17 @@
 
 * Explain variable hoisting:
   * At a broad level, hoisting is the concept of having access to named functions and variables (only vars) before they are declared in your code. This works because variable and function declarations are put into memory during the compile phase.
+
+* Does javascript pass parameter by value or by reference?
+  * It depends on the datatype. Primitive types (string, number, etc.) are passed by value and objects are passed by reference. If you change a property of the passed object, the object will be affected.
+
+* Is Javascript compiled or interpreted?
+  * Interpreted.
+
+* What are the three phases of event propagation?
+  * Capturing phase: Events begin at the top level and move inwards towards the target (the node you clicked)
+  * Target node: If there are registered handlers at the target node, they are run.
+  * Bubbling phase: Event walks back outwards towards root; all encountered event handlers are run on the way.
+
+* What does the global object refer to in JavaScript?
+  * A POJO that exists to provide all built-in methods and global variables.
