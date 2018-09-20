@@ -79,3 +79,9 @@
 
 * What is the temporal dead zone?
   * This has to do with the topic of hoisting. The temporal deadzone is the time between entering a scope where a variable is declared (i.e. an if statement or while loop), and the actual declaration and initialization of that variable. During this period, let and const variables cannot be accessed (you will get a Reference Error), even though they have been hoisted.
+
+* What is position absolute?
+  * The computed position of the element where it can be spaced after being removed to from the normal flow of the document. It is spaced in relation to its' first non-static parent container with top, bottom, left, and right.
+
+* Explain variable hoisting:
+  * At a broad level, hoisting is the concept of having access to named functions and variables (only vars) before they are declared in your code. This works because variable and function declarations are put into memory during the compile phase.
