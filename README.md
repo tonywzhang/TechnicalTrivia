@@ -172,4 +172,23 @@
 * What is the "this"/context when invoking a function in each of the three possible ways in JS?
   * Function: the global environment("window"), Constructor: The instance of the object, Method: the object the function is being called on.
 
-* 
+* What is {} + {} in JS?
+  * NaN
+
+* What is a Stack and what is a Stack Overflow?
+  * A stack is an abstract data type that follows a first-in; last-out model. Stacks are made up of stack frames that can be placed on the top of the stack, then popped off the top of the stack, like a pile of trays. A stack overflow is when the number of stack frames on the stack reaches a predetermined limit and execution of stack frames is stopped to prevent infinitely processed operations.
+
+* What is the difference between a GET request and a POST request?
+  * A GET request requests information to be displayed on the client side from the DB. A POST request uploads data to be inserted into the DB.
+
+* What are the three ways to pass params in an http request?
+  * In the URL, In the Query String, or in the body of the request
+
+* What is the difference between .call and .apply?
+  * .call allows you to bind context while passing individual arguments to the function. .apply allows you to bind context and pass in an array of arguments.
+
+* Can you use forEach on a node list?
+  * No - a node list is not an array. You can convert it to an array by using Array.from(node-list) or .splice
+
+* Name the two ways you can create a node element
+  * You can either create a node element using document.createElement or set the innerHTML of the parent element.
