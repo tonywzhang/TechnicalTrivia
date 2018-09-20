@@ -165,3 +165,11 @@
 
 * What are the three ways we can invoke a function in JS?
   * function style, method style, constructor style
+
+* What is the difference between scope and context?
+  * Scope is the lexical environment of the code/function("block scoped, function scoped, globally scoped") while context is to what the invoked function 'belongs' or what the function is being called upon, referred to as "this".
+
+* What is the "this"/context when invoking a function in each of the three possible ways in JS?
+  * Function: the global environment("window"), Constructor: The instance of the object, Method: the object the function is being called on.
+
+* 
