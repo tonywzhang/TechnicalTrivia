@@ -141,3 +141,12 @@
 
 * When you zoom in on your browser and the page gets bigger, what exactly happens?
   * The browser increases the size of each pixel by the percentage of the zoom.
+
+* What is asynchronous programming?
+  * Synchronous programming means code is executed sequentially from top-to-bottom, blocking on long-running tasks such as network requests and disk I/O. Asynchronous programming means that the engine runs in an event loop. When a blocking operation is needed, the request is started, and the code keeps running without blocking for the result.
+
+* What are the proper keywords for error handling in JavaScript?
+  * try and catch
+
+* Name two differences between var and let
+  * var is globally scoped and returns undefined before it is declared. let is block scoped and throws an error if accessed before it is defined.
