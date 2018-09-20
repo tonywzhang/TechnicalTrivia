@@ -192,3 +192,12 @@
 
 * Name the two ways you can create a node element
   * You can either create a node element using document.createElement or set the innerHTML of the parent element.
+
+* What are repaint and reflow?
+  * Repaint happens when you change the look of an element without changing the size and shape. Reflow happens when the flow of the elements in the page is changed by the insertion or removal of an element which takes up space.
+
+* How could you capture every click on a page?
+  * Just add a click event listener on the body element - each click will be captured during the bubbling phases since the body encapsulates all visible information on a web page.
+
+* Is javascript concurrent, parallel or both?
+  * Concurrent
