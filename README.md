@@ -150,3 +150,9 @@
 
 * Name two differences between var and let
   * var is globally scoped and returns undefined before it is declared. let is block scoped and throws an error if accessed before it is defined.
+
+* What does [] + [] evaluate to in JS?
+  * "", empty string
+
+* What does "2" + 1 evaluate to in JS?
+  * "21"
