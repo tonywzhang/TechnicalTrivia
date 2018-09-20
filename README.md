@@ -162,3 +162,6 @@
 
 * In JS are strings mutable or immutable?
   * Immutable
+
+* What are the three ways we can invoke a function in JS?
+  * function style, method style, constructor style
